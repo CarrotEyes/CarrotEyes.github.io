@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <a class="navbar-brand" href="#">Navbar</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+             </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Action</a>
+                   <a class="dropdown-item" href="#">Another action</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+             </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+       </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center">
+       <h1 class="display-4">TS637A&nbsp;</h1>
+       <p class="lead">Digital Media and Web Design&nbsp;</p>
+       <hr class="my-4">
+       <p>Portfolio Tasks&nbsp;</p>
+       <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+       </p>
+    </div>
+  <div class="container">
+       <div class="row text-center">
+          <div class="col-lg-6 offset-lg-3 offset-xl-0 col-xl-6">
+            <p> Car Noises.</p>
+            <p>Using Audacity.&nbsp; &nbsp;</p>
+          </div>
+          <div class="col-lg-6 col-xl-6">
+            <audio controls>
+              <source src="TS AUD.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+      </div>
+<br>
+    <hr>
+       <br>
+       <div class="row">
+         <div class="col-md-4 col-xl-3 offset-xl-0">
+           <div class="card"> <img class="card-img-top" src="https://cdn.iconscout.com/icon/free/png-512/adobe-photoshop-4-569303.png" alt="Card image cap">
+             <div class="card-body">
+               <h4 class="card-title">Photoshop Tasks&nbsp;</h4>
+               <p class="card-text">Learning basic Photoshop Skills&nbsp;</p>
+               <br>
+               <br>
+               <a href="#" class="btn btn-primary">Photoshop Tasks&nbsp;</a> </div>
+           </div>
+         </div>
+         <div class="col-md-4 col-xl-3 offset-xl-1"><img class="card-img-top" src="https://australiaeast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Fhighvale-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!49doXOAt80qrrtkiYpthMu3mJGH1n6RNidbqFW1PblXwIRAnGngdR5w5KcKBxKj7%2Fitems%2F01T2TPXFCPWWLGX6TRP5HZBIJPESC7CS6G%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaGlnaHZhbGUtbXkuc2hhcmVwb2ludC5jb21ANGIxNzU5ZDgtYWE2OC00Mjc3LWE3Y2EtNzk0NDU2MGQwZWU1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTU4ODg5MDAzMyIsImV4cCI6IjE1ODg5MTE2MzMiLCJlbmRwb2ludHVybCI6ImQ0dkFXMTNpT2NKaGdQSkExU0h6M0d3WC96MThCTUZRS3BxZktucUk0dkE9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMTgiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik5tSXpOalV3T1dZdE9UQXlaUzFpTURBd0xUQTBOVFF0WXpKbE16a3hNREJqT1dWaiIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJOV00yT0dRM1pUTXRNbVJsTUMwMFlXWXpMV0ZpWVdVdFpEa3lNall5T1dJMk1UTXkiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfGhvYTAwMDZAaGlnaHZhbGVzYy52aWMuZWR1LmF1IiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzdmZmVhNzE3MmZmYUBsaXZlLmNvbSIsInR0IjoiMCIsInVzZVBlcnNpc3RlbnRDb29raWUiOiIzIn0.T003R0s0V3hEVmNqUUZ6SndzWk1aNmhpZ3VHZnlpdXR4ZlFXK3ArMWFTST0&encodeFailures=1&srcWidth=&srcHeight=&width=833&height=833&action=Preview"><img class="card-img-top" src="https://australiaeast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fhighvale-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!49doXOAt80qrrtkiYpthMu3mJGH1n6RNidbqFW1PblXwIRAnGngdR5w5KcKBxKj7%2Fitems%2F01T2TPXFEEBKEUEQS6TJDZQXPIJM6BZAOG%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaGlnaHZhbGUtbXkuc2hhcmVwb2ludC5jb21ANGIxNzU5ZDgtYWE2OC00Mjc3LWE3Y2EtNzk0NDU2MGQwZWU1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTU4ODg5MDAzMyIsImV4cCI6IjE1ODg5MTE2MzMiLCJlbmRwb2ludHVybCI6ImQ0dkFXMTNpT2NKaGdQSkExU0h6M0d3WC96MThCTUZRS3BxZktucUk0dkE9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMTgiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik5tSXpOalV3T1dZdE9UQXlaUzFpTURBd0xUQTBOVFF0WXpKbE16a3hNREJqT1dWaiIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJOV00yT0dRM1pUTXRNbVJsTUMwMFlXWXpMV0ZpWVdVdFpEa3lNall5T1dJMk1UTXkiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfGhvYTAwMDZAaGlnaHZhbGVzYy52aWMuZWR1LmF1IiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzdmZmVhNzE3MmZmYUBsaXZlLmNvbSIsInR0IjoiMCIsInVzZVBlcnNpc3RlbnRDb29raWUiOiIzIn0.T003R0s0V3hEVmNqUUZ6SndzWk1aNmhpZ3VHZnlpdXR4ZlFXK3ArMWFTST0&encodeFailures=1&srcWidth=&srcHeight=&width=220&height=257&action=Preview" alt="Card image cap"><img class="card-img-top" src="https://australiaeast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Fhighvale-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!49doXOAt80qrrtkiYpthMu3mJGH1n6RNidbqFW1PblXwIRAnGngdR5w5KcKBxKj7%2Fitems%2F01T2TPXFERSRX5SGMWTRAJWVPMKE2HLGFU%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaGlnaHZhbGUtbXkuc2hhcmVwb2ludC5jb21ANGIxNzU5ZDgtYWE2OC00Mjc3LWE3Y2EtNzk0NDU2MGQwZWU1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTU4ODg5MDAzMyIsImV4cCI6IjE1ODg5MTE2MzMiLCJlbmRwb2ludHVybCI6ImQ0dkFXMTNpT2NKaGdQSkExU0h6M0d3WC96MThCTUZRS3BxZktucUk0dkE9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMTgiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik5tSXpOalV3T1dZdE9UQXlaUzFpTURBd0xUQTBOVFF0WXpKbE16a3hNREJqT1dWaiIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJOV00yT0dRM1pUTXRNbVJsTUMwMFlXWXpMV0ZpWVdVdFpEa3lNall5T1dJMk1UTXkiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfGhvYTAwMDZAaGlnaHZhbGVzYy52aWMuZWR1LmF1IiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzdmZmVhNzE3MmZmYUBsaXZlLmNvbSIsInR0IjoiMCIsInVzZVBlcnNpc3RlbnRDb29raWUiOiIzIn0.T003R0s0V3hEVmNqUUZ6SndzWk1aNmhpZ3VHZnlpdXR4ZlFXK3ArMWFTST0&encodeFailures=1&srcWidth=&srcHeight=&width=350&height=233&action=Preview" alt="Card image cap">&nbsp;</div>
+<div class="col-md-4 col-xl-3">
+      <div class="card">
+              <ul class="list-group list-group-flush">
+              </ul>
+            </div>
+            <img class="card-img-top" src="https://australiaeast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fhighvale-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!49doXOAt80qrrtkiYpthMu3mJGH1n6RNidbqFW1PblXwIRAnGngdR5w5KcKBxKj7%2Fitems%2F01T2TPXFDVNRGUUVZ3WFC324P3VTSMPK3T%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaGlnaHZhbGUtbXkuc2hhcmVwb2ludC5jb21ANGIxNzU5ZDgtYWE2OC00Mjc3LWE3Y2EtNzk0NDU2MGQwZWU1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTU4ODg5MDAzMyIsImV4cCI6IjE1ODg5MTE2MzMiLCJlbmRwb2ludHVybCI6ImQ0dkFXMTNpT2NKaGdQSkExU0h6M0d3WC96MThCTUZRS3BxZktucUk0dkE9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMTgiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik5tSXpOalV3T1dZdE9UQXlaUzFpTURBd0xUQTBOVFF0WXpKbE16a3hNREJqT1dWaiIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJOV00yT0dRM1pUTXRNbVJsTUMwMFlXWXpMV0ZpWVdVdFpEa3lNall5T1dJMk1UTXkiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfGhvYTAwMDZAaGlnaHZhbGVzYy52aWMuZWR1LmF1IiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzdmZmVhNzE3MmZmYUBsaXZlLmNvbSIsInR0IjoiMCIsInVzZVBlcnNpc3RlbnRDb29raWUiOiIzIn0.T003R0s0V3hEVmNqUUZ6SndzWk1aNmhpZ3VHZnlpdXR4ZlFXK3ArMWFTST0&encodeFailures=1&srcWidth=&srcHeight=&width=336&height=224&action=Access">
+            <img class="card-img-top" src="https://australiaeast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fhighvale-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!49doXOAt80qrrtkiYpthMu3mJGH1n6RNidbqFW1PblXwIRAnGngdR5w5KcKBxKj7%2Fitems%2F01T2TPXFHW6P6DU36CMBD2SRBNEAPG7ZFF%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaGlnaHZhbGUtbXkuc2hhcmVwb2ludC5jb21ANGIxNzU5ZDgtYWE2OC00Mjc3LWE3Y2EtNzk0NDU2MGQwZWU1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTU4ODg5MDAzMyIsImV4cCI6IjE1ODg5MTE2MzMiLCJlbmRwb2ludHVybCI6ImQ0dkFXMTNpT2NKaGdQSkExU0h6M0d3WC96MThCTUZRS3BxZktucUk0dkE9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMTgiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik5tSXpOalV3T1dZdE9UQXlaUzFpTURBd0xUQTBOVFF0WXpKbE16a3hNREJqT1dWaiIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJOV00yT0dRM1pUTXRNbVJsTUMwMFlXWXpMV0ZpWVdVdFpEa3lNall5T1dJMk1UTXkiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfGhvYTAwMDZAaGlnaHZhbGVzYy52aWMuZWR1LmF1IiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzdmZmVhNzE3MmZmYUBsaXZlLmNvbSIsInR0IjoiMCIsInVzZVBlcnNpc3RlbnRDb29raWUiOiIzIn0.T003R0s0V3hEVmNqUUZ6SndzWk1aNmhpZ3VHZnlpdXR4ZlFXK3ArMWFTST0&encodeFailures=1&srcWidth=&srcHeight=&width=800&height=600&action=Preview">
+            <img class="card-img-top" src="https://australiaeast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fhighvale-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!49doXOAt80qrrtkiYpthMu3mJGH1n6RNidbqFW1PblXwIRAnGngdR5w5KcKBxKj7%2Fitems%2F01T2TPXFHV5CFIY7O5P5C325AFFGM2Z3DM%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaGlnaHZhbGUtbXkuc2hhcmVwb2ludC5jb21ANGIxNzU5ZDgtYWE2OC00Mjc3LWE3Y2EtNzk0NDU2MGQwZWU1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTU4ODg5MDAzMyIsImV4cCI6IjE1ODg5MTE2MzMiLCJlbmRwb2ludHVybCI6ImQ0dkFXMTNpT2NKaGdQSkExU0h6M0d3WC96MThCTUZRS3BxZktucUk0dkE9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMTgiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik5tSXpOalV3T1dZdE9UQXlaUzFpTURBd0xUQTBOVFF0WXpKbE16a3hNREJqT1dWaiIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJOV00yT0dRM1pUTXRNbVJsTUMwMFlXWXpMV0ZpWVdVdFpEa3lNall5T1dJMk1UTXkiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfGhvYTAwMDZAaGlnaHZhbGVzYy52aWMuZWR1LmF1IiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzdmZmVhNzE3MmZmYUBsaXZlLmNvbSIsInR0IjoiMCIsInVzZVBlcnNpc3RlbnRDb29raWUiOiIzIn0.T003R0s0V3hEVmNqUUZ6SndzWk1aNmhpZ3VHZnlpdXR4ZlFXK3ArMWFTST0&encodeFailures=1&srcWidth=&srcHeight=&width=1200&height=800&action=Access">	 <img class="card-img-top" src="https://australiaeast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fhighvale-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!49doXOAt80qrrtkiYpthMu3mJGH1n6RNidbqFW1PblXwIRAnGngdR5w5KcKBxKj7%2Fitems%2F01T2TPXFBDOEQ4K6YUOVH3JCSOJ2V754BH%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaGlnaHZhbGUtbXkuc2hhcmVwb2ludC5jb21ANGIxNzU5ZDgtYWE2OC00Mjc3LWE3Y2EtNzk0NDU2MGQwZWU1IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTU4ODg5MDAzMyIsImV4cCI6IjE1ODg5MTE2MzMiLCJlbmRwb2ludHVybCI6ImQ0dkFXMTNpT2NKaGdQSkExU0h6M0d3WC96MThCTUZRS3BxZktucUk0dkE9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMTgiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik5tSXpOalV3T1dZdE9UQXlaUzFpTURBd0xUQTBOVFF0WXpKbE16a3hNREJqT1dWaiIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJOV00yT0dRM1pUTXRNbVJsTUMwMFlXWXpMV0ZpWVdVdFpEa3lNall5T1dJMk1UTXkiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfGhvYTAwMDZAaGlnaHZhbGVzYy52aWMuZWR1LmF1IiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzdmZmVhNzE3MmZmYUBsaXZlLmNvbSIsInR0IjoiMCIsInVzZVBlcnNpc3RlbnRDb29raWUiOiIzIn0.T003R0s0V3hEVmNqUUZ6SndzWk1aNmhpZ3VHZnlpdXR4ZlFXK3ArMWFTST0&encodeFailures=1&srcWidth=&srcHeight=&width=880&height=485&action=Access">
+            
+
+  
+  
+</div>
+             </div>
+<br>
+             <br/>
+             <div class="card">
+               
+
+             </div>
+  </div>
+</div>
+       <br/>
+       <br/>
+       <div class="row">
+         <div class="col-md-4  offset-xl-2"> 
+           <p>&nbsp;&nbsp;</p>
+           <p>&nbsp;</p>
+           <p>&nbsp;</p>
+           <p> &nbsp;Video Maker Task. </p>
+           <p>Using Video Maker.&nbsp;</p>
+         </div>
+          <div class=" col-md-4 offset-xl-0"> 
+			  
+				  <video width="320" height="240" controls>
+  <source src="TS637A.mp4" type="video/mp4">
+ 
+</video>
+			  
+		   </div>
+</div>
+       <br/>
+       <br/>
+       <div class="row">
+          <div class="col-md-6 text-center">
+             <div class="card">
+               
+                 
+            </div>
+         </div>
+      </div>
+      <div class="text-center col-md-6 offset-xl-3">
+             <div class="card">
+                <div class="card-body">Emai HOA0006@highvalesc.vic.edu.au&nbsp;
+                   
+                </div>
+             </div>
+          </div>
+  </div>
+  <br>
+  <hr>
+       <div class="row">
+          <div class="text-center col-lg-6 offset-lg-3">
+             <h4>&nbsp; </h4>
+             <p>Copyright &copy; 2019 &middot; All Rights Reserved &middot; <a href="#" >My Website</a></p>
+          </div>
+       </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
